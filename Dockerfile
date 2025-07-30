@@ -3,6 +3,7 @@ FROM ubuntu:24.04
 ENV user=user
 ENV chall_port=1337
 ENV chall_name=chall_bof
+ENV chall_name_bin=binexp_bof_01
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update
